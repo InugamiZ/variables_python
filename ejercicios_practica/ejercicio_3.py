@@ -20,8 +20,8 @@ apellido = str(input())
 # Imprima su nombre completo
 print (nombre, "", apellido)
 # Almacenar su nombre completo en una variable
-Complet = nombre, "", apellido
-# nombre_completo = .....
-print(Complet)
+nombre_completo = nombre + apellido
+
 # Imprimir la cantidad de letras que posee su nombre completo
-# cantidad_letras = len(....)
+cantidad_letras = len(nombre_completo)
+print(nombre_completo, 'tiene', cantidad_letras, 'caracteres')
